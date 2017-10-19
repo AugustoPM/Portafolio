@@ -149,8 +149,7 @@ opacity: .6;
  }
  
  .contacto input[type="text"],
- .contacto input[type="email"],
- .formulario textarea{
+ .contacto input[type="email"]{
     padding: 15px;
     border: none;
     width: 100%;
@@ -159,9 +158,20 @@ opacity: .6;
  }
 
  .formulario textarea {
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
      height: 150px;
      min-height: 150px;
      max-height: 250px;
+ }
+
+ .formulario .infocaract {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #7B7979;
  }
  .formulario .boton {
      background: #3da5e2;
@@ -200,7 +210,9 @@ opacity: .6;
 }
 
 .redes-sociales .twitter { background:#3da5e2; }
-.redes-sociales .facebook { background:#075B8A;}
+.redes-sociales .facebook { background:#084263;}
 .redes-sociales .instagram { background:#D9219E;}
 .redes-sociales .pinterest { background:#FE0000;}
 .redes-sociales .google-plus { background:#EB5050;}
+
+
